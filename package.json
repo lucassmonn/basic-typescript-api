@@ -1,0 +1,20 @@
+{
+  "name": "api-restaurante",
+  "version": "1.0.0",
+  "description": "Description api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.23"
+  },
+  "devDependencies": {
+    "@types/restify": "^8.4.2",
+    "restify": "^8.5.1"
+  }
+}
